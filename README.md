@@ -1,71 +1,32 @@
-![Da Vinci Mechanica — Madrid Codex I White Paper](assets/covers/da_vinci_mechanica_cover_v1.svg)
-
 # Da Vinci Mechanica
+## Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens
 
-## Madrid Codex I — Modular Mechanical Architecture
-
-> *Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens*
-
-**Author:** Richard Steven Vallance (Da Valenca)
-**Parent Ecosystem:** [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium)
-**Constitutional Classification:** Validated Engineering White Paper
-**Publication Status:** 🟢 Core paper deposited · Companion extension deposited · DOI pending final release decision
-**Evidence Types:** TYPE A / TYPE B
+**Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | United Kingdom
+© 2026 Richard Steven Vallance
 
 ---
 
 ## Deposited Content
 
-| Document | Description | Status |
-|---|---|---|
-| `DaValenca_Mechanica_WhitePaper_2026.md` | Core white paper — Chapters I–VIII, 40-transcript appendix, bibliography | ✓ Deposited |
-| `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_X_RSV_2026.docx` | Companion extension — Chapters VIII–X, full codex synthesis | ✓ Deposited |
-| `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_X_README.md` | Summary of extension contents | ✓ Deposited |
-| `CITATION.cff` | Citation metadata | ✓ Present |
-| `LICENSE` | CC-BY 4.0 | ✓ Present |
-| `metadata.json` | Publication metadata | ✓ Present |
-| `zenodo.json` | Zenodo package | ✓ Present |
-| `hashes.txt` | SHA-256 integrity hashes | ✓ Present |
+**Core white paper:** `DaValenca_Mechanica_WhitePaper_2026.md` — Chapters I–VIII, ~11,000 words, Priority Claims Register, 40-transcript Appendix A (BNE 5869–5956), full bibliography.
 
----
+**Companion extension:** `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_IX_X_RSV_2026.md` — Chapters VIII–X, Maximum Output Edition, April 2026. Unique material not in core paper.
 
-## Abstract
+- Chapter VIII: Four Elements as Universal Organising Principle
+- Chapter IX: Anatomical Connection — biology as the fifth medium
+- Chapter X: Complete Unified System — ten structural sections, proposition architecture, ten output configurations
 
-This paper argues that Codex Madrid I is best understood not as a miscellaneous notebook of mechanical sketches, but as a structured corpus of reusable engineering modules whose coherence emerges when the manuscript is read simultaneously at three levels: text as demonstration, reverse folio sequence as instruction, and marginal note as governing law.
+## Priority Claims
 
-The central thesis: Leonardo reached a level of mechanical integration far more systematic than is usually acknowledged. The present reconstruction does not invent a machine absent from Leonardo; it integrates modules demonstrably present in distributed form.
+- **PC-1:** Flintlock prototype (BNE 5907) — 115 years before le Bourgeoys [EXCEPTIONAL]
+- **PC-2:** Resonant impulse accumulation (BNE 5911) [VERY HIGH]
+- **PC-3:** Combined clock-and-orrery + lunar gear cascade 1:29.5 [FOUNDATIONAL]
+- **PC-4:** Chiaravalle precision dating anchor (BNE 5892) [HIGH]
+- **PC-5:** Seepage alignment as intentional design registration [ORIGINAL]
+- **PC-6:** Over-centre toggle-lock doctrine (BNE 5955) [VERY HIGH]
 
----
+## DOI Status
 
-## Six Priority Claims
+**Pending — not yet released.** Core white paper deposited. Chapters VIII–X companion extension deposited. Full release pending final review decision.
 
-| ID | Claim | BNE Source | Type |
-|---|---|---|---|
-| PC-1 | Flintlock prototype c.1493–97 — 115 years before le Bourgeoys | BNE 5907 | TYPE A |
-| PC-2 | Resonant impulse accumulation — theoretical basis of escapement physics | BNE 5911 | TYPE A |
-| PC-3 | Combined clock-and-orrery platform; lunar gear cascade 1:29.5 | BNE 5902/5906/5890 | TYPE A |
-| PC-4 | Chiaravalle abbey clock as precision dating anchor | BNE 5892 | TYPE A |
-| PC-5 | Seepage alignment as intentional design registration | Madrid I | TYPE B |
-| PC-6 | Over-centre toggle-lock doctrine | BNE 5955 | TYPE A |
-
----
-
-## Evidential Limitations
-
-- Analysis covers f.0r–f.25r (Batches 1–5, approximately 26% of the 192-folio codex)
-- Folios f.36v–f.43r are physically missing from Madrid Codex I
-- All claims require independent validation against the full codex
-- Priority claims are registered but not yet peer reviewed
-
----
-
-## DOI
-
-Pending. DOI will be assigned at formal release. See [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium) DOI registry.
-
----
-
-## Legal Notice
-
-© 2026 Richard Steven Vallance. All Intellectual Property and Copyright Reserved.
-*Da Valenca — Leonardo Project, United Kingdom*
+© 2026 Richard Steven Vallance. All intellectual property reserved.
