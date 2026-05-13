@@ -1,6 +1,4 @@
-![Da Vinci Mechanica — Madrid Codex I White Paper
-
-Publication Ready](assets/covers/da_vinci_mechanica_cover_v1.svg)
+![Da Vinci Mechanica — Madrid Codex I White Paper](assets/covers/da_vinci_mechanica_cover_v1.svg)
 
 # Da Vinci Mechanica
 
@@ -11,36 +9,59 @@ Publication Ready](assets/covers/da_vinci_mechanica_cover_v1.svg)
 **Author:** Richard Steven Vallance (Da Valenca)
 **Parent Ecosystem:** [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium)
 **Constitutional Classification:** Validated Engineering White Paper
-**Publication Status:** 🟢 Publication Ready
+**Publication Status:** 🟢 Core paper deposited · Companion extension deposited · DOI pending final release decision
 **Evidence Types:** TYPE A / TYPE B
+
+---
+
+## Deposited Content
+
+| Document | Description | Status |
+|---|---|---|
+| `DaValenca_Mechanica_WhitePaper_2026.md` | Core white paper — Chapters I–VIII, 40-transcript appendix, bibliography | ✓ Deposited |
+| `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_X_RSV_2026.docx` | Companion extension — Chapters VIII–X, full codex synthesis | ✓ Deposited |
+| `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_X_README.md` | Summary of extension contents | ✓ Deposited |
+| `CITATION.cff` | Citation metadata | ✓ Present |
+| `LICENSE` | CC-BY 4.0 | ✓ Present |
+| `metadata.json` | Publication metadata | ✓ Present |
+| `zenodo.json` | Zenodo package | ✓ Present |
+| `hashes.txt` | SHA-256 integrity hashes | ✓ Present |
 
 ---
 
 ## Abstract
 
-This repository contains the single validated engineering white paper reconstructing Leonardo da Vinci's Codex Madrid I as a modular mechanical language. Six original priority claims are registered — none previously appearing in the scholarly literature — covering the flintlock prototype, resonant impulse accumulation, combined clock-and-orrery platform, Chiaravalle dating anchor, seepage alignment, and over-centre toggle-lock doctrine.
+This paper argues that Codex Madrid I is best understood not as a miscellaneous notebook of mechanical sketches, but as a structured corpus of reusable engineering modules whose coherence emerges when the manuscript is read simultaneously at three levels: text as demonstration, reverse folio sequence as instruction, and marginal note as governing law.
+
+The central thesis: Leonardo reached a level of mechanical integration far more systematic than is usually acknowledged. The present reconstruction does not invent a machine absent from Leonardo; it integrates modules demonstrably present in distributed form.
 
 ---
 
-## Contents
+## Six Priority Claims
 
-- Full white paper (~10,500 words, 8 chapters)
-- 40-transcript primary source appendix (BNE 5869–5956)
-- Priority Claims Register
-- V3 Layer Model (7-stratum mechanical architecture)
-- CITATION.cff, metadata.json, zenodo.json
+| ID | Claim | BNE Source | Type |
+|---|---|---|---|
+| PC-1 | Flintlock prototype c.1493–97 — 115 years before le Bourgeoys | BNE 5907 | TYPE A |
+| PC-2 | Resonant impulse accumulation — theoretical basis of escapement physics | BNE 5911 | TYPE A |
+| PC-3 | Combined clock-and-orrery platform; lunar gear cascade 1:29.5 | BNE 5902/5906/5890 | TYPE A |
+| PC-4 | Chiaravalle abbey clock as precision dating anchor | BNE 5892 | TYPE A |
+| PC-5 | Seepage alignment as intentional design registration | Madrid I | TYPE B |
+| PC-6 | Over-centre toggle-lock doctrine | BNE 5955 | TYPE A |
 
 ---
 
 ## Evidential Limitations
 
-Evidence presently suggests the modules reconstructed here were composed c.1492–1497. All claims require independent validation against the full 192-folio codex. Folios f.36v–f.43r are physically missing from the manuscript.
+- Analysis covers f.0r–f.25r (Batches 1–5, approximately 26% of the 192-folio codex)
+- Folios f.36v–f.43r are physically missing from Madrid Codex I
+- All claims require independent validation against the full codex
+- Priority claims are registered but not yet peer reviewed
 
 ---
 
 ## DOI
 
-*Pending Zenodo registration. See [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium) DOI registry.*
+Pending. DOI will be assigned at formal release. See [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium) DOI registry.
 
 ---
 
