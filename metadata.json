@@ -1,0 +1,41 @@
+{
+  "title": "Da Valenca Mechanica: Leonardo da Vinci's Codex Madrid I as a Modular Mechanical Language",
+  "subtitle": "Recto-Verso Continuity, Mechanical Dependency, Primary Source Analysis, and Integrated Systems Reconstruction",
+  "series": "Corpus Leonardianum Universale",
+  "author": {
+    "name": "Richard Steven Vallance",
+    "alias": "Da Valenca",
+    "affiliation": "Da Valenca - Leonardo Project",
+    "country": "United Kingdom"
+  },
+  "year": 2026,
+  "version": "1.0.0",
+  "release_date": "2026-05-13",
+  "language": "en",
+  "license": "CC-BY-4.0",
+  "copyright": "\u00a9 2026 Richard Steven Vallance. All Intellectual Property and Copyright Reserved.",
+  "ecosystem": "Ecosystem A - Da Vinci / Da Valenca",
+  "parent_repository": "da-vinci-ultimatium",
+  "publication_status": "Publication Ready",
+  "primary_source": {
+    "codex": "Madrid Codex I",
+    "shelfmark": "BNE Ms.8937",
+    "institution": "Biblioteca Nacional de Espana",
+    "folios_covered": "f.0r to f.25r (approximately)",
+    "BNE_file_range": "5869-5956",
+    "composition_period": "c.1493-1497"
+  },
+  "priority_claims": [
+    {"id": "PC-1", "claim": "Complete flintlock prototype c.1493-97 - 115 years before le Bourgeoys", "BNE_file": "5907", "type": "TYPE A"},
+    {"id": "PC-2", "claim": "Resonant impulse accumulation - theoretical basis of escapement physics", "BNE_file": "5911", "type": "TYPE A"},
+    {"id": "PC-3", "claim": "Combined clock-and-orrery platform - lunar gear cascade 1:29.5", "BNE_files": ["5902","5906","5890"], "type": "TYPE A"},
+    {"id": "PC-4", "claim": "Chiaravalle abbey clock as precision dating anchor", "BNE_file": "5892", "type": "TYPE A"},
+    {"id": "PC-5", "claim": "Seepage alignment as intentional design registration", "type": "TYPE B"},
+    {"id": "PC-6", "claim": "Over-centre toggle-lock doctrine", "BNE_file": "5955", "type": "TYPE A"}
+  ],
+  "word_count_approx": 10500,
+  "chapters": 8,
+  "appendix_transcripts": 40,
+  "repository": "https://github.com/richievallance/da-vinci-mechanica",
+  "doi_pending": true
+}
