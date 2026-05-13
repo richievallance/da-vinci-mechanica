@@ -1,3 +1,7 @@
+![Da Vinci Mechanica — Madrid Codex I White Paper
+
+Publication Ready](assets/covers/da_vinci_mechanica_cover_v1.svg)
+
 # Da Vinci Mechanica
 
 ## Madrid Codex I — Modular Mechanical Architecture
