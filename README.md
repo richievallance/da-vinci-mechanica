@@ -1,32 +1,76 @@
-# Da Vinci Mechanica
-## Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens
+# Da Valenca Mechanica
+## Madrid Codex I — Engineering Reconstruction and Kinematic Analysis
 
-**Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | United Kingdom
-© 2026 Richard Steven Vallance
+**Author:** Richard Steven Vallance (Da Valenca)  
+**Affiliation:** The People Focused Group, Doncaster, UK  
+**Status:** 🟡 ACTIVE — Pre-publication, DOI candidate  
+**Version:** v0.9 — White paper deposited, extension complete, pending final review  
+**Last Updated:** May 2026
+
+---
+
+## Abstract
+
+This repository documents the systematic engineering reconstruction of Leonardo da Vinci's *Madrid Codex I* (BNE MS 8937), treating it not as a working notebook but as a publication-ready master engineering treatise. The analysis establishes a governing kinematic framework — the central shaft doctrine — under which all subsystems (Drive, Transmission, Regulation, Oscillation, Output, Structural) feed a master power spine. A seepage alignment methodology (ink bleed-through between physically adjacent leaves as intentional design registration) constrains folio-ordering hypotheses within quire structure. Priority claims documented include: a flintlock prototype antedating Marin le Bourgeoys by approximately 115 years; resonant impulse accumulation theory; a combined clock-and-orrery modular platform; and the first documented multi-output parallel analogue computing platform.
+
+---
+
+## Evidence and Caution Statement
+
+Claims are tiered: **Tier A** (arithmetically verified), **Tier B** (strongly supported by folio evidence), **Tier C** (speculative proposals). Priority claims marked Tier A and Tier B have been subject to internal review. This work has not yet undergone external peer review. No DOI has been assigned. Do not cite as a finalised publication.
 
 ---
 
 ## Deposited Content
 
-**Core white paper:** `DaValenca_Mechanica_WhitePaper_2026.md` — Chapters I–VIII, ~11,000 words, Priority Claims Register, 40-transcript Appendix A (BNE 5869–5956), full bibliography.
+| File | Description | Status |
+|---|---|---|
+| `DaValenca_Mechanica_WhitePaper_2026.md` | Core white paper, Chapters I–VIII (~72KB, ~11,000 words) | ✓ Deposited |
+| `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_IX_X_RSV_2026.md` | Extension Chapters VIII–X, Maximum Output Edition | ✓ Deposited |
+| `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_X_RSV_2026.md` | Chapters VIII–X, standard edition | ✓ Deposited |
+| `CITATION.cff` | Citation metadata | ✓ Present |
+| `zenodo.json` | Zenodo deposit metadata (DOI not yet minted) | ✓ Present |
 
-**Companion extension:** `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_IX_X_RSV_2026.md` — Chapters VIII–X, Maximum Output Edition, April 2026. Unique material not in core paper.
+**Note:** A `.docx` binary of the white paper is planned for deposit in a future commit.
 
-- Chapter VIII: Four Elements as Universal Organising Principle
-- Chapter IX: Anatomical Connection — biology as the fifth medium
-- Chapter X: Complete Unified System — ten structural sections, proposition architecture, ten output configurations
+---
 
-## Priority Claims
+## Citation
 
-- **PC-1:** Flintlock prototype (BNE 5907) — 115 years before le Bourgeoys [EXCEPTIONAL]
-- **PC-2:** Resonant impulse accumulation (BNE 5911) [VERY HIGH]
-- **PC-3:** Combined clock-and-orrery + lunar gear cascade 1:29.5 [FOUNDATIONAL]
-- **PC-4:** Chiaravalle precision dating anchor (BNE 5892) [HIGH]
-- **PC-5:** Seepage alignment as intentional design registration [ORIGINAL]
-- **PC-6:** Over-centre toggle-lock doctrine (BNE 5955) [VERY HIGH]
+```
+Vallance, R.S. (2026). Da Valenca Mechanica: Madrid Codex I Engineering Reconstruction.
+Da Valenca Archive. The People Focused Group, Doncaster, UK.
+https://github.com/richievallance/da-vinci-mechanica
+DOI: Pending
+```
+
+---
+
+## Licence
+
+© 2026 Richard Steven Vallance. All Intellectual Property Reserved.  
+Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Attribution required on all use.
+
+---
 
 ## DOI Status
 
-**Pending — not yet released.** Core white paper deposited. Chapters VIII–X companion extension deposited. Full release pending final review decision.
+**No DOI assigned.** Zenodo integration prepared (`zenodo.json`). DOI will be minted only on explicit instruction following final review.
 
-© 2026 Richard Steven Vallance. All intellectual property reserved.
+---
+
+## Related Repositories
+
+| Repository | Role |
+|---|---|
+| [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium) | Master parent — ecosystem governance |
+| [principia-mechanica](https://github.com/richievallance/principia-mechanica) | Universal architecture thesis |
+| [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) | Madrid Codex infrastructure and transcriptions |
+| [solarscorch](https://github.com/richievallance/solarscorch) | Solar geometry and optical analysis |
+| [figura-ultima](https://github.com/richievallance/figura-ultima) | Turin Shroud authorship thesis |
+
+---
+
+## Release History
+
+- **2026-05**: Core white paper deposited. Extension chapters deposited. CITATION.cff and zenodo.json added. DOI held pending review.
