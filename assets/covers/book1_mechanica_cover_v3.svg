@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 960" width="680" height="960">
+  <defs>
+    <radialGradient id="vellum" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#FBF6EA"/>
+      <stop offset="100%" stop-color="#E8DDC5"/>
+    </radialGradient>
+    <linearGradient id="goldpanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4AD52"/>
+      <stop offset="40%" stop-color="#9B7420"/>
+      <stop offset="100%" stop-color="#5A3A08"/>
+    </linearGradient>
+    <linearGradient id="bottompanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D1A08"/>
+      <stop offset="100%" stop-color="#180E04"/>
+    </linearGradient>
+    <filter id="aged">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="n"/>
+      <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+      <feBlend in="SourceGraphic" in2="g" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <!-- Vellum ground -->
+  <rect width="680" height="960" fill="url(#vellum)"/>
+  <rect width="680" height="960" fill="#A08040" opacity="0.04"/>
+
+  <!-- Foxing marks -->
+  <circle cx="58" cy="195" r="4" fill="#8B6914" opacity="0.10"/>
+  <circle cx="612" cy="248" r="3" fill="#6B4F10" opacity="0.08"/>
+  <circle cx="42" cy="820" r="5" fill="#8B6914" opacity="0.07"/>
+  <circle cx="638" cy="740" r="3" fill="#6B4F10" opacity="0.09"/>
+  <circle cx="320" cy="880" r="2" fill="#8B6914" opacity="0.08"/>
+  <circle cx="580" cy="180" r="4" fill="#8B6914" opacity="0.06"/>
+
+  <!-- ═══ VITRUVIAN GHOST — very faint ═══ -->
+  <g opacity="0.055" stroke="#3D2B1A" fill="none" stroke-width="0.8">
+    <circle cx="340" cy="500" r="255"/>
+    <rect x="105" y="265" width="470" height="470"/>
+  </g>
+
+  <!-- ═══ CENTRAL SENSALE SHAFT — vertical spine ═══ -->
+  <g opacity="0.72">
+    <!-- Main shaft body -->
+    <rect x="327" y="185" width="26" height="580" rx="3" fill="none" stroke="#5C3D1E" stroke-width="2.2"/>
+    <!-- Shaft centre line -->
+    <line x1="340" y1="185" x2="340" y2="765" stroke="#5C3D1E" stroke-width="0.6" stroke-dasharray="3,5" opacity="0.5"/>
+    <!-- Shaft ends (journals) -->
+    <rect x="320" y="180" width="40" height="18" rx="3" fill="#E8D8B8" stroke="#5C3D1E" stroke-width="1.5"/>
+    <rect x="320" y="765" width="40" height="18" rx="3" fill="#E8D8B8" stroke="#5C3D1E" stroke-width="1.5"/>
+    <!-- Shaft label -->
+    <text x="365" y="478" font-family="Georgia, serif" font-size="8" fill="#5C3D1E" opacity="0.55" font-style="italic">sensale</text>
+  </g>
+
+  <!-- ═══ LARGE MAIN GEAR (gear cascade) ═══ -->
+  <g transform="translate(340,400)" opacity="0.78">
+    <circle r="118" fill="none" stroke="#5C3D1E" stroke-width="2.2"/>
+    <circle r="100" fill="none" stroke="#5C3D1E" stroke-width="0.8" opacity="0.4"/>
+    <circle r="28" fill="none" stroke="#5C3D1E" stroke-width="1.8"/>
+    <circle r="7" fill="#5C3D1E"/>
+    <!-- 14 teeth -->
+    <g stroke="#5C3D1E" stroke-width="2" fill="none">
+      <rect x="-7" y="-129" width="14" height="19" rx="1"/>
+      <rect x="-7" y="110" width="14" height="19" rx="1"/>
+      <rect x="-129" y="-7" width="19" height="14" rx="1"/>
+      <rect x="110" y="-7" width="19" height="14" rx="1"/>
+      <g transform="rotate(25.7)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(51.4)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(77.1)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(102.8)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(128.5)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(154.2)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(205.6)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(231.3)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(257)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+      <g transform="rotate(282.7)"><rect x="-7" y="-129" width="14" height="19" rx="1"/></g>
+    </g>
+    <!-- Spokes -->
+    <g stroke="#5C3D1E" stroke-width="1.5" opacity="0.65">
+      <line x1="0" y1="-28" x2="0" y2="-100"/>
+      <line x1="0" y1="28" x2="0" y2="100"/>
+      <line x1="-28" y1="0" x2="-100" y2="0"/>
+      <line x1="28" y1="0" x2="100" y2="0"/>
+      <line x1="-20" y1="-20" x2="-70" y2="-70"/>
+      <line x1="20" y1="-20" x2="70" y2="-70"/>
+      <line x1="-20" y1="20" x2="-70" y2="70"/>
+      <line x1="20" y1="20" x2="70" y2="70"/>
+    </g>
+    <!-- Proportional ratio lines -->
+    <line x1="-145" y1="0" x2="145" y2="0" stroke="#5C3D1E" stroke-width="0.5" stroke-dasharray="2,5" opacity="0.3"/>
+    <line x1="0" y1="-145" x2="0" y2="145" stroke="#5C3D1E" stroke-width="0.5" stroke-dasharray="2,5" opacity="0.3"/>
+  </g>
+
+  <!-- ═══ FUSEE SPIRAL — upper right ═══ -->
+  <g transform="translate(520,265)" opacity="0.65">
+    <!-- Fusee cone outline -->
+    <path d="M -28,-55 L 28,-55 L 38,35 L -38,35 Z" fill="none" stroke="#5C3D1E" stroke-width="1.5"/>
+    <!-- Spiral groove lines -->
+    <line x1="-28" y1="-45" x2="28" y2="-45" stroke="#5C3D1E" stroke-width="0.8"/>
+    <line x1="-30" y1="-32" x2="30" y2="-32" stroke="#5C3D1E" stroke-width="0.8"/>
+    <line x1="-32" y1="-18" x2="32" y2="-18" stroke="#5C3D1E" stroke-width="0.8"/>
+    <line x1="-34" y1="-4" x2="34" y2="-4" stroke="#5C3D1E" stroke-width="0.8"/>
+    <line x1="-36" y1="10" x2="36" y2="10" stroke="#5C3D1E" stroke-width="0.8"/>
+    <line x1="-38" y1="24" x2="38" y2="24" stroke="#5C3D1E" stroke-width="0.8"/>
+    <!-- Chain cord -->
+    <path d="M 28,-45 Q 65,-40 70,10" fill="none" stroke="#5C3D1E" stroke-width="1" stroke-dasharray="2,2"/>
+    <!-- Small barrel drum -->
+    <rect x="55" y="-18" width="28" height="40" rx="4" fill="none" stroke="#5C3D1E" stroke-width="1.5"/>
+    <ellipse cx="69" cy="-18" rx="14" ry="5" fill="none" stroke="#5C3D1E" stroke-width="1"/>
+  </g>
+
+  <!-- ═══ VERGE ESCAPEMENT — lower right ═══ -->
+  <g transform="translate(540,590)" opacity="0.62">
+    <!-- Foliot bar (crossbar) -->
+    <rect x="-55" y="-6" width="110" height="12" rx="3" fill="none" stroke="#5C3D1E" stroke-width="1.8"/>
+    <!-- Crown wheel (partial) -->
+    <path d="M -18,18 Q 0,45 18,18" fill="none" stroke="#5C3D1E" stroke-width="1.5"/>
+    <!-- Crown teeth -->
+    <line x1="-22" y1="18" x2="-18" y2="6" stroke="#5C3D1E" stroke-width="1.2"/>
+    <line x1="-8" y1="22" x2="-6" y2="8" stroke="#5C3D1E" stroke-width="1.2"/>
+    <line x1="6" y1="22" x2="8" y2="8" stroke="#5C3D1E" stroke-width="1.2"/>
+    <line x1="18" y1="18" x2="22" y2="6" stroke="#5C3D1E" stroke-width="1.2"/>
+    <!-- Verge pallets -->
+    <rect x="-5" y="8" width="10" height="30" rx="2" fill="none" stroke="#5C3D1E" stroke-width="1.5"/>
+    <rect x="-8" y="22" width="8" height="6" rx="1" fill="#E8D8B8" stroke="#5C3D1E" stroke-width="1"/>
+    <rect x="0" y="12" width="8" height="6" rx="1" fill="#E8D8B8" stroke="#5C3D1E" stroke-width="1"/>
+    <!-- Counterweights -->
+    <circle cx="-50" cy="0" r="6" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="50" cy="0" r="6" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+  </g>
+
+  <!-- ═══ BALL BEARING RACE — lower left ═══ -->
+  <g transform="translate(148,590)" opacity="0.6">
+    <!-- Outer race -->
+    <circle r="42" fill="none" stroke="#5C3D1E" stroke-width="2"/>
+    <!-- Inner race -->
+    <circle r="24" fill="none" stroke="#5C3D1E" stroke-width="2"/>
+    <!-- Balls (7) -->
+    <circle cx="0" cy="-33" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="31.8" cy="-9.5" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="19.7" cy="27.2" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="-19.7" cy="27.2" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="-31.8" cy="-9.5" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="19.7" cy="-27.2" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <circle cx="-19.7" cy="-27.2" r="5" fill="none" stroke="#5C3D1E" stroke-width="1.2"/>
+    <!-- Centre shaft -->
+    <circle r="6" fill="#E8D8B8" stroke="#5C3D1E" stroke-width="1.5"/>
+    <!-- Label -->
+    <text x="0" y="58" font-family="Georgia" font-size="8" fill="#5C3D1E" opacity="0.5" text-anchor="middle" font-style="italic">bocce — BNE 5910</text>
+  </g>
+
+  <!-- ═══ WORM DRIVE — upper left ═══ -->
+  <g transform="translate(140,280)" opacity="0.6">
+    <rect x="-48" y="-14" width="96" height="28" rx="5" fill="none" stroke="#5C3D1E" stroke-width="1.8"/>
+    <line x1="-38" y1="-14" x2="-38" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <line x1="-24" y1="-14" x2="-24" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <line x1="-10" y1="-14" x2="-10" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <line x1="4" y1="-14" x2="4" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <line x1="18" y1="-14" x2="18" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <line x1="32" y1="-14" x2="32" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <line x1="46" y1="-14" x2="46" y2="14" stroke="#5C3D1E" stroke-width="1"/>
+    <!-- Worm gear below -->
+    <circle cx="0" cy="52" r="34" fill="none" stroke="#5C3D1E" stroke-width="1.5"/>
+    <g stroke="#5C3D1E" stroke-width="1.2" fill="none">
+      <rect x="-5" y="-37" width="10" height="12" rx="1" transform="translate(0,52)"/>
+      <g transform="translate(0,52) rotate(40)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(80)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(120)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(160)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(200)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(240)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(280)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+      <g transform="translate(0,52) rotate(320)"><rect x="-5" y="-37" width="10" height="12" rx="1"/></g>
+    </g>
+    <circle cx="0" cy="52" r="5" fill="#5C3D1E"/>
+    <!-- Connection line -->
+    <line x1="0" y1="14" x2="0" y2="17" stroke="#5C3D1E" stroke-width="1.5"/>
+  </g>
+
+  <!-- ═══ MARGINAL ANNOTATION LINES — left ═══ -->
+  <g opacity="0.28" stroke="#5C3D1E" stroke-width="0.7">
+    <line x1="46" y1="380" x2="138" y2="380"/>
+    <line x1="46" y1="395" x2="130" y2="395"/>
+    <line x1="46" y1="410" x2="136" y2="410"/>
+    <line x1="46" y1="425" x2="128" y2="425"/>
+    <line x1="46" y1="455" x2="134" y2="455"/>
+    <line x1="46" y1="470" x2="126" y2="470"/>
+    <line x1="46" y1="510" x2="132" y2="510"/>
+    <line x1="46" y1="525" x2="124" y2="525"/>
+  </g>
+  <!-- Right margin -->
+  <g opacity="0.25" stroke="#5C3D1E" stroke-width="0.7">
+    <line x1="542" y1="360" x2="634" y2="360"/>
+    <line x1="542" y1="375" x2="628" y2="375"/>
+    <line x1="542" y1="390" x2="632" y2="390"/>
+    <line x1="542" y1="405" x2="622" y2="405"/>
+    <line x1="542" y1="440" x2="630" y2="440"/>
+    <line x1="542" y1="455" x2="620" y2="455"/>
+  </g>
+
+  <!-- BNE folio ref — tiny, lower right -->
+  <text x="625" y="780" font-family="Georgia,serif" font-size="7" fill="#5C3D1E" opacity="0.35" text-anchor="end" font-style="italic">BNE MS.8937</text>
+
+  <!-- ═══ GOLD TITLE PANEL ═══ -->
+  <rect x="0" y="0" width="680" height="152" fill="url(#goldpanel)"/>
+  <rect x="0" y="148" width="680" height="4" fill="#3A2008"/>
+  <rect x="0" y="150" width="680" height="1.5" fill="#C9A84C" opacity="0.35"/>
+
+  <text x="340" y="48" font-family="Georgia,serif" font-size="15" font-weight="bold"
+        fill="#EDD8A0" text-anchor="middle" letter-spacing="5">LEONARDO DA VINCI'S</text>
+  <text x="340" y="84" font-family="Georgia,serif" font-size="36" font-weight="bold"
+        fill="#FAF0DC" text-anchor="middle" letter-spacing="4">DA VALENCA</text>
+  <text x="340" y="116" font-family="Georgia,serif" font-size="28" font-weight="bold"
+        fill="#FAF0DC" text-anchor="middle" letter-spacing="6">MECHANICA</text>
+  <line x1="55" y1="130" x2="625" y2="130" stroke="#C9A84C" stroke-width="0.8" opacity="0.55"/>
+  <text x="340" y="145" font-family="Georgia,serif" font-size="9" font-style="italic"
+        fill="#D4B050" text-anchor="middle" letter-spacing="1.2">Codex Madrid I as a Modular Mechanical Language</text>
+
+  <!-- ═══ BOTTOM BAR ═══ -->
+  <rect x="0" y="900" width="680" height="60" fill="url(#bottompanel)"/>
+  <line x1="0" y1="900" x2="680" y2="900" stroke="#C9A84C" stroke-width="1.2"/>
+  <text x="340" y="924" font-family="Georgia,serif" font-size="12" font-weight="bold"
+        fill="#C9A84C" text-anchor="middle" letter-spacing="2.5">RICHARD STEVEN VALLANCE</text>
+  <text x="340" y="944" font-family="Georgia,serif" font-size="9"
+        fill="#8B6810" text-anchor="middle" letter-spacing="1">Da Valenca — Leonardo Project  ·  United Kingdom  ·  2026</text>
+
+  <!-- Evidence tier mark -->
+  <rect x="22" y="858" width="128" height="34" rx="3" fill="none" stroke="#8B6914" stroke-width="1" opacity="0.55"/>
+  <text x="86" y="872" font-family="Georgia,serif" font-size="8" fill="#8B6914" text-anchor="middle" opacity="0.65">TIER A/B — PRIMARY SOURCES</text>
+  <text x="86" y="884" font-family="Georgia,serif" font-size="7" fill="#8B6914" text-anchor="middle" opacity="0.55">BNE 5869–5956  ·  RSV 2026</text>
+
+  <!-- Da Valenca Archive imprint -->
+  <text x="525" y="872" font-family="Georgia,serif" font-size="8" fill="#8B6914" text-anchor="middle" opacity="0.5">Da Valenca Archive</text>
+  <text x="525" y="883" font-family="Georgia,serif" font-size="7" fill="#8B6914" text-anchor="middle" opacity="0.4">Pre-publication edition</text>
+</svg>
