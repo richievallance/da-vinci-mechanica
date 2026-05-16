@@ -1,27 +1,20 @@
-# Changelog — Da Valenca Mechanica
+# CHANGELOG — DA VINCI MECHANICA
 
-All notable changes to this repository.
+## v0.6 — May 2026
+- Batch 5 complete: f.21r–f.25r
+- PC-6 established: over-centre toggle-lock doctrine (BNE 5955)
+- README upgraded to full standard template
+- DOI_READINESS.md added
 
----
+## v0.5 — April 2026
+- Batches 1–4 complete: f.0r–f.20v
+- PC-1 through PC-5 formally established
+- White paper: 8 chapters, ~10,500 words
+- Priority Claims Register added to white paper
+- 40-transcript Appendix A complete
+- Full bibliography added
 
-## [0.9.0] — May 2026 — Pre-Release
-
-### Added
-- `DaValenca_Mechanica_WhitePaper_2026.md` — Core white paper Chapters I–VIII
-- `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_IX_X_RSV_2026.md` — Extension Ch. VIII–X (Max Output)
-- `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_X_RSV_2026.md` — Extension Ch. VIII–X (Standard)
-- `CITATION.cff` — Citation metadata
-- `zenodo.json` — Zenodo deposit metadata
-- `hashes.txt` — SHA-256 integrity hashes
-- `cover/` directory — Full visual identity system
-- `NAVIGATION.md` — Cross-repository navigation
-- `RELEASE_NOTES_DRAFT.md` — Pre-release notes and checklist
-
-### Changed
-- README upgraded to full standard template (abstract, evidence tiers, citation, DOI status)
-- Repository description updated via GitHub API
-
-### Pending
-- `.docx` binary to be uploaded
-- External peer review to be completed
-- DOI to be minted on explicit instruction
+## v0.1 — March 2026
+- Initial white paper draft
+- BNE transcript analysis begins
+- Master Register structure established
