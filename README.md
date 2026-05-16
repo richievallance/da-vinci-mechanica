@@ -1,39 +1,44 @@
 # DA VINCI MECHANICA
 ## Madrid Codex I — Systematic Mechanical Reconstruction
 
-**Author:** Richard Steven Vallance
-**Affiliation:** The People Focused Group (PFG), Doncaster, UK
-**Status:** ACTIVE IN PRODUCTION
-**Version:** v0.6 — Batch 5 Complete
-**Last Updated:** May 2026
+**Author:** Richard Steven Vallance · The People Focused Group, Doncaster, UK
+**Classification:** A — CANONICAL PUBLIC RELEASE
+**DOI Status:** CANDIDATE · held pending explicit release instruction
+**Version:** 0.6 · May 2026
 
 ---
 
 ## Abstract
 
-This repository contains the systematic folio-by-folio mechanical reconstruction of Leonardo da Vinci's Madrid Codex I (Biblioteca Nacional de España, MS 8937), operating under the overarching title *Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens*. The work identifies and formally establishes Priority Claims for mechanical discoveries encoded within the codex, including a flintlock prototype 115 years antedating Marin le Bourgeoys, a combined clock-and-orrery with lunar gear cascade ratio 1:29.5, and an over-centre toggle-lock doctrine. Six Priority Claims are formally established (PC-1 through PC-6); three further claims are identified and pending formal write-up.
+Folio-by-folio mechanical reconstruction of Leonardo da Vinci's Madrid Codex I (BNE MS 8937). Six Priority Claims formally established, including a flintlock prototype 115 years before Marin le Bourgeoys (PC-1), a combined clock-and-orrery with lunar gear cascade ratio 1:29.5 (PC-3), and an over-centre toggle-lock doctrine (PC-6). Reconstruction operates on a three-layer reading model: text as demonstration, reverse sequence as instruction, margins as governing laws.
 
 ---
 
-## Evidence and Caution Statement
+## Evidence Status
 
-This repository contains **Tier A verified claims** (PC-1 through PC-6) grounded in direct BNE primary transcript analysis, and **Tier B supported hypotheses** (PC-7 through PC-9) identified but not yet fully documented. Readers are advised that this work is pre-publication and has not yet undergone formal peer review.
+PC-1 through PC-6: **Tier A** — verified against BNE primary transcripts.
+PC-7 through PC-9: **Tier B** — identified, pending formal write-up.
 
 ---
 
-## Priority Claims Register
+## Priority Claims
 
-| Code | Claim | BNE Source | Status |
-|---|---|---|---|
-| PC-1 | Flintlock prototype — 115 years before le Bourgeoys | BNE 5907 | FORMAL |
-| PC-2 | Resonant impulse accumulation | BNE 5911 | FORMAL |
-| PC-3 | Clock-and-orrery + lunar gear cascade 1:29.5 | BNE 5902/5906/5890 | FORMAL |
-| PC-4 | Chiaravalle precision dating anchor | BNE 5892 | FORMAL |
-| PC-5 | Seepage alignment as intentional design registration | Multiple | FORMAL |
-| PC-6 | Over-centre toggle-lock doctrine | BNE 5955 | FORMAL |
-| PC-7 | Pending formal write-up | TBD | IDENTIFIED |
-| PC-8 | Pending formal write-up | TBD | IDENTIFIED |
-| PC-9 | Pending formal write-up | TBD | IDENTIFIED |
+| Code | Claim | Source |
+|---|---|---|
+| PC-1 | Flintlock prototype — 115 years before le Bourgeoys | BNE 5907 |
+| PC-2 | Resonant impulse accumulation | BNE 5911 |
+| PC-3 | Clock-and-orrery + lunar gear cascade 1:29.5 | BNE 5902/5906/5890 |
+| PC-4 | Chiaravalle dating anchor | BNE 5892 |
+| PC-5 | Seepage alignment as intentional design registration | Multiple |
+| PC-6 | Over-centre toggle-lock doctrine | BNE 5955 |
+| PC-7–9 | Pending formal write-up | TBD |
+
+---
+
+## Coverage
+
+Batches 1–5 complete: **f.0r–f.25r** (~26% of 192-folio codex).
+Batch 6 pending: f.25v onward — friction laws, lubrication chemistry, rack-and-pinion.
 
 ---
 
@@ -41,58 +46,37 @@ This repository contains **Tier A verified claims** (PC-1 through PC-6) grounded
 
 | File | Description |
 |---|---|
-| DaValenca_Mechanica_WhitePaper_2026.docx | Principal white paper — 8 chapters, ~10,500 words |
+| DaValenca_Mechanica_WhitePaper_2026.docx | Principal white paper — 8 chapters |
 | DaValenca_Mechanica_WhitePaper_2026.md | Markdown edition |
-| CHANGELOG.md | Version history |
 | CITATION.cff | Machine-readable citation |
-| NAVIGATION.md | Cross-repository navigation |
-| hashes.txt | File integrity hashes |
-| metadata.json | Publication metadata |
 | zenodo.json | Zenodo deposit metadata |
-
----
-
-## Coverage
-
-Batches 1–5 complete: **f.0r–f.25r** (~26% of 192-folio codex, approximately 100 of 384 pages).
-
-**Batch 6 pending:** f.25v onward — friction laws, lubrication chemistry (olive oil + wether-bone grease), rack-and-pinion systems.
+| CHANGELOG.md | Version history |
+| DOI_READINESS.md | Release gate checklist |
+| RELEASE_NOTES_DRAFT.md | Pre-release notes |
+| RELATED_WORKS.md | Bibliography and cross-references |
+| VISUAL_INDEX.md | Cover and asset index |
 
 ---
 
 ## Citation
 
-Vallance, R.S. (2026). *Da Vinci Mechanica: Madrid Codex I Systematic Reconstruction*. Da Valenca Archive. The People Focused Group, Doncaster, UK. https://github.com/richievallance/da-vinci-mechanica
+```
+Vallance, R.S. (2026). Da Vinci Mechanica: Madrid Codex I Systematic Reconstruction.
+Da Valenca Archive. The People Focused Group, Doncaster, UK.
+https://github.com/richievallance/da-vinci-mechanica
+```
 
 ---
 
-## Licence
+## Navigation
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
----
-
-## DOI Status
-
-CANDIDATE — held pending explicit instruction
-
----
-
-## Related Repositories
-
-- [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) — Infrastructure portal
-- [principia-mechanica](https://github.com/richievallance/principia-mechanica) — Universal theoretical framework
-- [figura-ultima](https://github.com/richievallance/figura-ultima) — Turin Shroud thesis
-- [solarscorch](https://github.com/richievallance/solarscorch) — Solar geometry studies
+| Repository | Relation |
+|---|---|
+| [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) | Master portal |
+| [principia-mechanica](https://github.com/richievallance/principia-mechanica) | Theoretical synthesis |
+| [solarscorch](https://github.com/richievallance/solarscorch) | Solar geometry studies |
+| [figura-ultima](https://github.com/richievallance/figura-ultima) | Turin Shroud thesis |
 
 ---
 
-## Release History
-
-- 2026-03: v0.1 — Initial white paper draft
-- 2026-04: v0.5 — Batches 1–4 complete; PC-1 through PC-5 established
-- 2026-05: v0.6 — Batch 5 complete; PC-6 established
-
----
-
-*© 2026 Richard Steven Vallance. All Intellectual Property Reserved. Da Valenca — Leonardo Project · The People Focused Group · Doncaster, UK*
+**Licence:** CC BY 4.0 · © 2026 Richard Steven Vallance · All Rights Reserved
